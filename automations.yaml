@@ -835,3 +835,13 @@
     entity_id: 71cd9f685715a98c410872b317c8c3b2
     domain: switch
   mode: single
+- id: '1759152112915'
+  alias: GitHub commits
+  description: GitHub commits
+  triggers:
+  - at: 03:00:00
+    trigger: time
+  actions:
+  - action: shell_command.git_push_config
+    data: {}
+  mode: single
