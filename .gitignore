@@ -1,0 +1,7 @@
+*
+!configuration.yaml
+!automations.yaml
+!.gitignore
+!README.md
+!.includes/
+!.includes/**
